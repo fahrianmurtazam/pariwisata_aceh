@@ -15,31 +15,33 @@
     <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
 </head>
 <body class="h-[1000px]">
-    <nav class="navbar fixed w-full z-50 py-3 navbar-expand-lg navbar-light bg-black/50 shadow-md shadow-slate-400 backdrop-blur-sm">
+    <nav class="navbar fixed w-full z-50 py-3 navbar-expand-lg navbar-light bg-black/50 shadow-md shadow-sky-300 backdrop-blur-sm">
         <div class="container-fluid">
-          <a class="text-blue-400 px-3 text-2xl font-extrabold" href="#">Pariwisata Aceh</a>
+          <a class="text-amber-500 px-3 text-2xl font-extrabold hover:text-slate-50" href="#">Pariwisata Aceh</a>
           <div class="px-4">
             <ul class="flex gap-x-4 text-lg font-bold text-white">
                 <li><a  class="hover:text-orange-500" href="#home">Home</a></li>
                 <li><a  class="hover:text-orange-500" href="#about">About</a></li>
                 <li><a  class="hover:text-orange-500" href="#packages">Packages</a></li>
                 <li><a  class="hover:text-orange-500" href="#contact">Contact</a></li>
+                <li><a  class="text-orange-400 hover:text-slate-50" href="./utils/data.php">Detail Pesanan</a></li>
             </ul>
           </div>
         </div>
-      </nav>
+    </nav>
 <!-- home start -->
 <section id="home">
         <div class="relative h-screen w-full overflow-hidden">
             <video class="absoluted top-0 left-0 w-full h-full object-fill" src="img/bg2.mov" loop autoplay muted></video>
         </div>
+        <div class="absolute top-0 w-full bg-slate-700/30 h-full"></div>
         <div class="absolute top-40 w-full mx-auto px-5">
-            <div class="grid grid-cols-2 py-2 shadow-sm backdrop-blur-sm rounded-md">
-                <h1 class="text-amber-500 font-extrabold text-3xl text-center leading-10 uppercase">Selamat datang di website pariwisata di Aceh</h1>
-                <p class="text-center font-medium text-white py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, atque quo aliquid nulla provident est sequi cupiditate nostrum iste quisquam ratione ad sint, tempore nisi! lorem20</p>
+            <div class="grid grid-cols-2 py-2">
+                <h1 class="text-white font-extrabold text-3xl text-center leading-10 uppercase">Selamat datang di website pariwisata di Aceh</h1>
+                <p class="text-center font-medium text-slate-100 py-3">Selamat datang di Aceh! Temukan pesona alam yang menakjubkan, kuliner lezat, dan keramahan lokal yang hangat. Jelajahi keindahan pantai dan pegunungan Aceh, dan ciptakan kenangan tak terlupakan.</p>
             </div>
             <div class="flex justify-center items-end h-64">
-                <button class="font-semibold px-8 py-2 bg-yellow-400 rounded-md hover:bg-yellow-600">Booking Now</button>
+                 <a href="./utils/data.php"><button class="font-semibold px-8 py-2 bg-yellow-400 rounded-md hover:bg-yellow-600">Booking Now</button></a> 
             </div>
         </div>
 </section>
@@ -48,7 +50,7 @@
 <section id="about" class="bg-blue-200">
     <div class="pt-20 text-center">
         <h1 class="text-4xl font-extrabold text-amber-500 tracking-wider">About</h1>
-        <p class="mx-auto pt-4 w-2/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quod, aspernatur deleniti doloremque consequuntur reiciendis, dolorum, possimus sint dicta hic soluta sit eos voluptatibus!</p>
+        <p class="mx-auto pt-4 w-2/4"></p>
     </div>
     <div class="pb-10 px-4 grid grid-cols-2 justify-items-center">
         <div>
@@ -56,7 +58,8 @@
         </div>
         <div class="max-w-lg flex flex-col justify-center items-center">
             <h3 class="py-2 font-semibold text-orange-400 text-xl mr-auto">About us !</h3>
-            <p class="text-justify font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam sit, totam molestiae sequi praesentium, quam magnam reprehenderit aperiam dolorum ex natus nobis facilis laudantium consectetur labore sint, hic numquam sed. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores sed distinctio itaque asperiores explicabo! Perferendis omnis cupiditate pariatur magnam eum soluta, ut enim nobis sit fugiat voluptates totam animi saepe!</p>
+            <p class="text-justify font-light">Selamat datang di Pariwisata Aceh, panduan terpercaya Anda untuk mengeksplorasi keindahan Aceh! Kami menghadirkan informasi terkini tentang destinasi wisata, kuliner, dan aktivitas terbaik di provinsi yang kaya akan budaya dan alam ini. Aceh menawarkan pesona pantai yang memikat, pegunungan menawan, dan tradisi yang kaya. Tim kami yang berpengalaman siap membantu Anda merencanakan perjalanan yang tak terlupakan, dari rekomendasi tempat wisata hingga tips lokal.
+            Jelajahi website kami, temukan keajaiban Aceh, dan buatlah kenangan indah dalam setiap langkah perjalanan Anda. Terima kasih telah memilih Pariwisata Aceh sebagai teman perjalanan Anda!</p>
         </div>
         <div>
         </div>
@@ -67,31 +70,31 @@
 <section id="packages" class="bg-slate-100">
     <div class="pt-20 pb-5 text-center">
         <h1 class="text-4xl font-extrabold text-amber-500 tracking-wider">Packages</h1>
-        <p class="mx-auto pt-4 w-2/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quod, aspernatur deleniti doloremque consequuntur reiciendis, dolorum, possimus sint dicta hic soluta sit eos voluptatibus!</p>
+        <p class="mx-auto pt-4 w-2/4"> Kami telah merancang berbagai paket wisata untuk memastikan pengalaman Anda di Aceh menjadi luar biasa. Temukan paket-paket yang sesuai dengan minat dan preferensi Anda, dari petualangan alam yang mendebarkan hingga eksplorasi budaya yang mendalam.</p>
     </div>
     <div class="pb-20 px-5 grid grid-cols-3 gap-5 justify-items-center">
         <div class="card shadow">
             <img src="img/f1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title font-medium text-lg">Masjid Raya Baiturrahman</h5>
-              <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning">Book Now</a>
+              <p class="card-text pb-3 text-justify">erletak di pusat Kota Banda Aceh, Masjid Raya Baiturrahman adalah salah satu ikon arsitektur dan spiritual terbesar di Aceh. Dibangun pada abad ke-19, masjid ini tidak hanya merupakan tempat ibadah yang penting, tetapi juga simbol kekuatan dan ketahanan masyarakat Aceh.</p>
+              <a href="./utils/data.php" class="btn btn-warning">Book Now</a>
             </div>
           </div>
         <div class="card shadow">
             <img src="img/f2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title font-medium text-lg">Gunongan</h5>
-              <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning">Book Now</a>
+              <p class="card-text pb-3 text-justify">Gunongan, yang terletak di pusat Kota Banda Aceh, adalah salah satu situs sejarah yang paling menarik dan ikonik di Aceh. Dibangun pada abad ke-16, struktur ini merupakan simbol keagungan dan kekayaan sejarah kerajaan Aceh yang memiliki arti penting dalam konteks budaya dan arsitektur lokal.</p>
+              <a href="./utils/data.php" class="btn btn-warning">Book Now</a>
             </div>
           </div>
         <div class="card shadow">
             <img src="img/f3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title font-medium text-lg">Museum Stunami</h5>
-              <p class="card-text pb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-warning">Book Now</a>
+              <p class="card-text pb-3 text-justify">Museum Tsunami Aceh adalah sebuah monumen yang dirancang untuk memperingati dan mendokumentasikan tragedi tsunami 26 Desember 2004 yang menghancurkan sebagian besar Aceh. Museum ini tidak hanya berfungsi sebagai tempat peringatan, tetapi juga sebagai pusat pendidikan yang mendalam mengenai bencana alam dan upaya pemulihan.</p>
+              <a href="./utils/data.php" class="btn btn-warning">Book Now</a>
             </div>
           </div>
           <div>
@@ -110,7 +113,7 @@
 <section id="contact" class="bg-slate-900">
     <div class="pt-20 pb-10 text-center">
         <h1 class="text-4xl font-extrabold text-amber-500 tracking-wider">Contact</h1>
-        <p class="mx-auto text-slate-200 pt-4 w-2/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quod, aspernatur deleniti doloremque consequuntur reiciendis, dolorum, possimus sint dicta hic soluta sit eos voluptatibus!</p>
+        <p class="mx-auto text-slate-200 pt-4 w-2/4">Kami siap membantu Anda dengan segala informasi yang Anda butuhkan untuk merencanakan perjalanan Anda ke Aceh. Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau membutuhkan bantuan lebih lanjut.</p>
     </div>
     <div class="pb-10 px-4 grid grid-cols-2 gap-x-5 justify-items-center">
         <div>
@@ -149,25 +152,8 @@
                   </div>
                 </div>
                 <div class="col-md-3">
-                  <label for="validationCustom04" class="form-label">State</label>
-                  <select class="form-select" id="validationCustom04" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>Banda Aceh</option>
-                    <option>Luar Banda Aceh</option>
-                  </select>
-                  <div class="invalid-feedback">
-                    Please select a valid state.
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                    <label class="form-check-label" for="invalidCheck">
-                      Agree to terms and conditions
-                    </label>
-                    <div class="invalid-feedback">
-                      You must agree before submitting.
-                    </div>
+                  <div class="mb-3">
+                    <textarea name="message" id="message" cols="35" placeholder="your messege !" class="rounded text-black p-2 mt-4"></textarea>
                   </div>
                 </div>
                 <div class="col-12">
@@ -184,7 +170,7 @@
         <div class="grid grid-cols-3 content-center justify-items-center py-1">
             <div class="about">
                 <h4 class="font-bold text-lg">About Us</h4>
-                <p class="py-2 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas fugit quidem minus consectetur dolore voluptate error natus assumenda dignissimos eaque dicta adipisci nostrum, soluta eum distinctio doloribus suscipit temporibus beatae.</p>
+                <p class="py-2 font-normal text-justify">Setiap perjalanan adalah cerita yang layak dibagikan. Jelajahi website kami untuk informasi tentang Aceh dan biarkan kami membantu Anda menciptakan kenangan tak terlupakan.</p>
             </div>
             <div class="Quick Links">
                 <h4 class="font-bold text-lg">Quick Links</h4>
@@ -212,13 +198,7 @@
     </div>
 </footer>
 <!-- footer end -->
-
-
-
-
-
-
-      <!-- link boostrap js -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- link boostrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
